@@ -1,7 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+:root {
+    --cor-de-fundo:#000000;
+    --vinho:#316507;
+    --branco:#3aac2d;
+    --botao-ativo:#8bec41;
+    --botao-inativo: rgba(239, 172, 205, 0.205);
+    --texto-fundo: rgba(4, 195, 229, 0.5);
+}
+header{
+display: grid;
+background-color: rgb(243, 169, 78);
 
 
+}
+.trator-titulol{
+background-color: var(--cor-de-fundo);
+  color:var(--cor-de-fundo);
+  font-family: 'Chakra Petch', Sans-Serif;
 
+}
+.trator-texto-1{
+    font-size: 24px;
 
-
-
-
+}
+.imagem-cabecalho{
+display: inline-flex;
+font-size: 12px;<li class="cabeçalho-lista-item1">Diretamente da loja</li>
+}
+.cabecalho-lista-item{
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+.cabecalho-lista-item{
+  width: 30%;
+}
+.conteudo-principal{
+  display:inline;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1998px;
+  width: 100%;
+  margin: 1 auto;
+}
+.titulo-principal{
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
+}titulo-principa
+.titulo-principal span{
+  color: var(--preto);
+}
+.botao{
+  font-family: 'Chakra Petch', sans-serif ;
+  background-color: var(--botao-inativo);
+  color: var(--branco);
+  display: inline-block;
+  justify-content: center;
+  padding: 1em;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 4px solid var(--botao-ativo);
+  border-left: 2px solid var(--botao-ativo);
+  border-right: 2px solid var(--botao-ativo);
+  border-top: none;
+}
+.botao:first-child{
+  border-radius: 40px 40px 0 0;
+}
+.botoes.ativo{
+  display: block;
+}
+.ativo{
+  background-color: var(--botao-ativo);
+  border-bottom: 4px solid var(--preto);
+}
