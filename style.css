@@ -9,31 +9,27 @@
 }
 header{
 display: grid;
-background-color: rgb(243, 169, 78);
+background-color: rgb(26, 242, 6);
 
 
 }
-.trator-titulol{
-background-color: var(--cor-de-fundo);
-  color:var(--cor-de-fundo);
-  font-family: 'Chakra Petch', Sans-Serif;
-
+.imagem-cabecalho{
+  width: 35%;
 }
+
 .trator-texto-1{
     font-size: 24px;
 
 }
 .imagem-cabecalho{
 display: inline-flex;
-font-size: 12px;<li class="cabeçalho-lista-item1">Diretamente da loja</li>
+font-size: 12px
 }
 .cabecalho-lista-item{
   display: flex;
   justify-content: center;
   padding: 60px 0;
-}
-.cabecalho-lista-item{
-  width: 30%;
+  font-size: 60px;
 }
 .conteudo-principal{
   display:inline;
