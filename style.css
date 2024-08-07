@@ -15,21 +15,20 @@ background-color: rgb(26, 242, 6);
 }
 .imagem-cabecalho{
   width: 35%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .trator-texto-1{
     font-size: 24px;
 
 }
-.imagem-cabecalho{
-display: inline-flex;
-font-size: 12px
-}
 .cabecalho-lista-item{
   display: flex;
   justify-content: center;
-  padding: 60px 0;
-  font-size: 60px;
+  padding: 50px 0;
+  font-size: 50px;
 }
 .conteudo-principal{
   display:inline;
@@ -44,32 +43,13 @@ font-size: 12px
   text-align: left;
   width: 100%;
   font-size: 32px;
-}titulo-principa
+}
 .titulo-principal span{
   color: var(--preto);
 }
-.botao{
-  font-family: 'Chakra Petch', sans-serif ;
-  background-color: var(--botao-inativo);
-  color: var(--branco);
-  display: inline-block;
+.trator-titulo{
   justify-content: center;
-  padding: 1em;
-  font-size: 18px;
   align-items: center;
-  width: 100%;
-  border-bottom: 4px solid var(--botao-ativo);
-  border-left: 2px solid var(--botao-ativo);
-  border-right: 2px solid var(--botao-ativo);
-  border-top: none;
+
 }
-.botao:first-child{
-  border-radius: 40px 40px 0 0;
-}
-.botoes.ativo{
-  display: block;
-}
-.ativo{
-  background-color: var(--botao-ativo);
-  border-bottom: 4px solid var(--preto);
-}
+
